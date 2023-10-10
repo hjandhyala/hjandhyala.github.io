@@ -1,0 +1,37 @@
+/* Apply style to <header> using a CSS selector */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Create and apply a class to multiple elements */
+.content-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Create and apply an id to an element */
+#top-drivers {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Change color of <a> on hover */
+a:hover {
+    color: #ff4500; /* Red-Orange color */
+}
+
+/* Change box model properties of elements */
+.content-section {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
